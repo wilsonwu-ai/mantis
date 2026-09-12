@@ -1,0 +1,40 @@
+{
+  "name": "mantis",
+  "owner": { "name": "Wilson Wu", "url": "https://github.com/wilsonwu-ai" },
+  "metadata": {
+    "description": "Fork of google/mantis packaged as an installable Claude Code plugin. Upstream: https://github.com/google/mantis (Apache-2.0).",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "mantis",
+      "source": "./",
+      "description": "Google's Mantis: 20 security-review skills for AI coding agents - history mining, structural indexing, threat modeling, planning, research, dedupe, review, critic, reproduce, chain, patch, calibrate, reflect, report, advise.",
+      "license": "Apache-2.0",
+      "strict": false,
+      "skills": [
+      "./mantis-advise",
+      "./mantis-architecture",
+      "./mantis-calibrate",
+      "./mantis-chain",
+      "./mantis-critic",
+      "./mantis-dedupe",
+      "./mantis-history",
+      "./mantis-meta-agent",
+      "./mantis-patch",
+      "./mantis-pipeline-adapter",
+      "./mantis-plan",
+      "./mantis-reflect",
+      "./mantis-report",
+      "./mantis-reproduce",
+      "./mantis-researcher",
+      "./mantis-review",
+      "./mantis-structural-index",
+      "./mantis-summarize",
+      "./mantis-threat-model",
+      "./reference/skills/mantis-configure",
+      "./reference/skills/mantis-launch"
+      ]
+    }
+  ]
+}
